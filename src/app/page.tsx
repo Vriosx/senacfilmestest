@@ -5,6 +5,23 @@ import { Title } from "./components/title";
 import { Card } from "./components/card";
 
 export default function Home() {
+
+  const filmes = [
+    {
+    id : 1,
+    title: "Caça fantasmas",
+    poster_path: "https://image.tmdb.org/t/p/original/boObGdocQS07Nu7IrettgA5oRTp.jpg",
+    vote_average : 6.6  
+    },
+    {
+      id : 2,
+      title: "V de Vingaça",
+      poster_path: "https://image.tmdb.org/t/p/original/rt4TiquPSuBqJsyUVUUC4rCP0ia.jpg",
+      vote_average : 9.9
+    }
+  ]
+
+
   return (
     <main className="flex min-h-screen flex-col">
 
@@ -12,11 +29,8 @@ export default function Home() {
     
       <Title>Filmes em alta</Title>
     <section className="flex gap-4 m-4 flex-wrap">
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+      { filmes.map( filmes => <Card filme={filmes} />) }
+      
     </section>
     
     <section>
