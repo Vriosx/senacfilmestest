@@ -9,14 +9,14 @@ export default function Home() {
   const filmes = [
     {
     id : 1,
-    title: "Caça fantasmas",
-    poster_path: "https://image.tmdb.org/t/p/original/boObGdocQS07Nu7IrettgA5oRTp.jpg",
-    vote_average : 6.6  
+    title: "Parmegiana",
+    poster_path: "https://img.freepik.com/fotos-gratis/mulher-tomando-ensopado-de-carne-com-queijo-de-uma-panela-preta-com-talheres_114579-3000.jpg?t=st=1716210231~exp=1716213831~hmac=feb6664427d23bbd4645639f249fe2e9bc66ce9264ee02225a37efe1c6e313a2&w=740",
+    vote_average : 9.9  
     },
     {
       id : 2,
-      title: "V de Vingaça",
-      poster_path: "https://image.tmdb.org/t/p/original/rt4TiquPSuBqJsyUVUUC4rCP0ia.jpg",
+      title: "Picadinho",
+      poster_path: "https://img.freepik.com/fotos-gratis/delicioso-goulash-pronto-para-o-jantar_23-2149370830.jpg?t=st=1716210184~exp=1716213784~hmac=b2911cbe6cda5c527c7a1efd7666bf0f9e986847348cf7fa2dc180c5ec046e9a&w=360",
       vote_average : 9.9
     }
   ]
